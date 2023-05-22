@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(69, 85, 99);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: white;
+}
+
+h1 {
+  
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.input-container {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 20px; 
+  text-align: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+input {
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+button {
+  padding: 20px 40px;
+  background-color: #415069;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Hanken Grotesk', sans-serif;
+  border-radius: 20px;
+}
+
+#result {
+  margin-top: 40px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
